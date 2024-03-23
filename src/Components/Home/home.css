@@ -1,0 +1,154 @@
+#h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(255,68,80);
+    text-decoration-thickness: 5px;
+    text-align: center;
+}
+
+h3{
+    color: #fff;
+}
+
+.jumbotron{
+    background-image: url('https://raw.githubusercontent.com/joshi010/betterstepsvideos/main/IBCO/grupo-estudio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 21px 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+.jumbo-in{
+    background: rgb(255,68,80);
+    background: linear-gradient(90deg, rgba(255,68,80,1) 0%, rgba(255,68,80,0.8575805322128851) 63%, rgba(255,68,80,0.5102415966386555) 100%);
+    color: #fff;
+    width: 50%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link{
+    color: #ff0a07;
+}
+
+.acerca-de{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.como-inscribirse{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    box-sizing: border-box;
+}
+
+.half-text{
+    text-align: justify;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.half-photo{
+    width: 49%;
+    min-width: 300px;
+}
+
+.half-photo img{
+    width: 100%;
+}
+
+.space{
+    box-sizing: border-box;
+    height: 600px;
+}
+
+#precencial{
+    box-sizing: border-box;
+    background-image: url('https://raw.githubusercontent.com/joshi010/betterstepsvideos/main/IBCO/3.jpg');
+    background-position: center;
+}
+
+#text-precencial{
+    background: rgb(255,68,80);
+    background: rgb(255,68,80);
+    color: #fff;
+    background: rgb(255,68,80);
+    background: rgb(255,68,80);
+    background: linear-gradient(180deg, rgba(255,68,80,0.5523459383753502) 16%, rgba(255,68,80,1) 95%);
+    text-align: center;
+}
+
+#text-en-linea{
+    background: rgb(17,38,59);
+    background: linear-gradient(180deg, rgba(17,38,59,0.5634628851540616) 15%, rgba(17,38,59,0.7959558823529411) 53%, rgba(17,38,59,1) 89%);
+    color: #fff;
+    text-align: center;
+}
+
+.texto-modos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#en-linea{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5c882d0593a63252251ee4a6/1585584707402-86F01UU21R77U22BMF2A/contact.jpg');
+}
+
+.boton-link{
+    background-color: #ff0a07;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+.boton-link:hover{
+    background-color: #fff;
+}
+
+.final{
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 906px){
+    .jumbo-in{
+        width: 100%;
+    }
+
+    .photo-text{
+        gap: 10px;
+    }
+
+    .half-text, .half-photo{
+        width: 100%;
+    }
+}

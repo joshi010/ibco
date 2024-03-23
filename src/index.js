@@ -1,13 +1,23 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App/App';
+import Nav from './Nav/Nav';
+import Footer from './Components/Footer/Footer';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Loading from './loading';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Nav></Nav>
+        <Suspense fallback={<Loading />}>
+          <App />
+        </Suspense>
+        <Footer></Footer>
+    </Router>
   </React.StrictMode>
 );
 

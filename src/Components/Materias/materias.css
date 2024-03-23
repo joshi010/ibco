@@ -1,0 +1,61 @@
+.grid-materias-plan{
+    margin-top: 50px;
+    display: grid;
+    gap: 8px;
+}
+
+.grid-row{
+    display: flex;
+    min-height: 100px;
+    width: 100%;
+
+}
+
+.grid-materias-seccion{
+    background: rgb(17, 38, 59);
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.grid-materias-seccion h3 {
+    color: #fff !important;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 120px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.grid-materias-materias{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    width: 100%;
+}
+
+.materia-materia{
+    height: 100%;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 906px){
+    .grid-row{
+        flex-direction: column;
+    }
+
+    .grid-materias-seccion{
+        justify-content: center;
+    }
+
+    .grid-materias-seccion h3{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .grid-materias-materias{
+        grid-template-columns: auto;
+    }
+}

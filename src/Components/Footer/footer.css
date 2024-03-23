@@ -1,0 +1,51 @@
+h3{
+    text-align: center;
+}
+
+footer{
+    background-color: #273044;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer p{
+    font-size: medium;
+    text-align: justify;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.footer-link{
+    padding: 0;
+    color: #fff;
+}
+
+.gaps{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li{
+    list-style: inside;
+}
+
+@media only screen and (max-width: 906px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}
