@@ -10,7 +10,7 @@ export default function Materias(){
         <div className="pad">
             <h1>Materias IBCO</h1>
             <div>
-                <p>El plan de estudios del IBCO consiste en bloques: básico, intermedio y avanzado. Los bloques consisten en trimestres y cada trimestre lleva sus respectivas materias.</p>
+                <p>El plan de estudios del IBCO consiste en tres bloques: básico, intermedio y avanzado. Los bloques consisten en trimestres y cada trimestre lleva sus respectivas materias.</p>
             </div>
             <div style={{marginTop:100}}>
                 <h2>Plan de Estudios</h2>

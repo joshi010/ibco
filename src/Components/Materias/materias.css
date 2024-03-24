@@ -41,7 +41,7 @@
     padding: 10px;
 }
 
-@media only screen and (max-width: 906px){
+@media only screen and (max-width: 1111px){
     .grid-row{
         flex-direction: column;
     }
@@ -57,5 +57,9 @@
 
     .grid-materias-materias{
         grid-template-columns: auto;
+    }
+
+    .grid-materias-plan{
+        gap: 20px;
     }
 }

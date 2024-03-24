@@ -1,20 +1,21 @@
 export const materias = {
     basico: {
         nombre: 'Nivel Básico',
-        materias: [{nombre:'La Familia Cristiana I y II'},
+        materias: [{nombre:'La Familia Cristiana I'},
                    {nombre: 'Los Gigantes de la Fe I y II'},
-                   {nombre:'Los Atributos de Dios I y II'},
-                   {nombre: 'Las Cartas de Juan I y II'},
-                   {nombre: 'La Importancia de la Oración'},
-                   {nombre: 'La Vida en Espíritu'},
-                   {nombre: 'Los Fundamentos de las Doctrinas de Cristo'},
-                   {nombre: 'Teología Sistemática'},
-                   {nombre: 'Evangelio de Lucas'}
+                   {nombre:'Los Atributos de Dios I'},
+                   {nombre: 'La Vida en Espítritu II'},
+                   {nombre: 'Las Cartas de Juan I'},
+                   {nombre: 'Carta a los Filipenses II'},
+                   {nombre: 'El Sacerdocio II'}
                 ]
     },
     intermedio: {
         nombre: 'Nivel Intermedio',
-        materias: [{nombre: 'Hermenéutica I'},
+        materias: [{nombre: 'Homilética'},
+                   {nombre: '1° y 2° de Tesaloniscenses'},
+                   {nombre: 'El Libro de Josué'},
+                   {nombre: 'Pneumatología'},
                    {nombre: 'Proclamadores de su Gloria'},
                    {nombre: '1 Epístola a los Tesalonicenses'},
                    {nombre: '1 y 2 Carta a los Corintios'},
@@ -32,6 +33,6 @@ export const materias = {
 
     diplomado: {
         nombre: 'Diplomado',
-        materias: [{nombre: 'Escatología'}]
+        materias: [{nombre: 'Escatología'}, {nombre: 'Historia de la Iglesia'}]
     }
 }

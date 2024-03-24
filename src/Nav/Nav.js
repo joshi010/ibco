@@ -32,7 +32,7 @@ export default function Nav(){
             </div>
         </nav>
 
-        <div className={`${active ? 'active' : null} ham-links`}>
+        <div className={`${active ? 'active' : null} ham-links`} style={active ? {display:'flex'} : {display: 'none'}}>
                 <NavLink onClick={() => setActive(!active)} to="/">INICIO</NavLink>
                 <NavLink onClick={() => setActive(!active)} to="/materias">MATERIAS</NavLink>
                 <NavLink onClick={() => setActive(!active)} to="/contacto">CONTACTO</NavLink>
